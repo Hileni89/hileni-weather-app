@@ -55,17 +55,17 @@ main {
   display: flex;
 }
 .weather-icon {
-  font-size: 44px;
-  margin-top: 22px;
+  width: 48px;
+  height: 88px;
 }
 .weather-app-temp {
-  font-size: 56px;
+  font-size: 44px;
+  line-height: 88px;
   font-weight: bold;
-  margin-left: 10px;
 }
 .weather-app-unit {
-  margin: top 14px;
-  font-size: 20px;
+  margin-top: 4px;
+  font-size: 15px;
 }
 footer {
   border-top: 1px solid #f9f7fe;
