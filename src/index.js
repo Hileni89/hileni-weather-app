@@ -64,8 +64,7 @@ function displayForecast() {
                 </div>
                 <div class="weather-forecast-temperature">12°</div>
               </div>
-              </div>
-`;
+              </div>`;
   });
   let forecastElement = document.querySelector("#forecast");
   forecastElement.innerHTML = forecastHtml;
@@ -74,4 +73,5 @@ function displayForecast() {
 let searchFormElement = document.querySelector("#search-form");
 searchFormElement.addEventListener("submit", handleSearchSubmit);
 
+searchCity("Bucharest");
 displayForecast();
