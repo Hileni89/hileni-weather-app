@@ -1,5 +1,5 @@
 body {
-  background-image: linear-gradient(to left, rgb(76, 177, 208), black);
+  background-image: url("/img/bg.jpg");
   font-family: "Roboto", sans-serif;
 }
 .weather-app {
